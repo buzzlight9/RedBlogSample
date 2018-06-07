@@ -53,7 +53,7 @@
                     <div class="col-sm-6 text-justify ">
                         <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
                         <small>Written on {{$post->created_at}} by {{$post->user->name}}</small>
-                    </div>
+                    </div>    
                 </div>
             </div>
         </div>
