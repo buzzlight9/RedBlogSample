@@ -34,65 +34,12 @@
     <div class="padding">
         <div class="container">
             <div class="row mb-5">
-                <div class="col-lg-4 col-md-12 video">
-                    <h4 class="text-center">INTRO 1</h4>
+                <div class="col-lg-12 col-md-12 video">
                     <div class="embed-responsive embed-responsive-16by9">
                         <video class="embed-responsive-item" controls poster="img/poster.png">
                             <source src="video/FijiWebIntro.mp4">
                         </video>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, accusamus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, praesentium.</p>
-                </div>
-                <div class="col-lg-4 col-md-12 video">
-                    <h4 class="text-center">INTRO 2</h4>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" controls poster="img/poster.png">
-                            <source src="video/FijiWebIntro.mp4">
-                        </video>
-                    </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, accusamus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, praesentium.</p>
-                </div>
-                <div class="col-lg-4 col-md-12 video">
-                    <h4 class="text-center">INTRO 3</h4>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" controls poster="img/poster.png">
-                            <source src="video/FijiWebIntro.mp4">
-                        </video>
-                    </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, accusamus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, praesentium.</p>
-                </div>
-                <div class="col-lg-4 col-md-12 video">
-                    <h4 class="text-center">INTRO 4</h4>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" controls poster="img/poster.png">
-                            <source src="video/FijiWebIntro.mp4">
-                        </video>
-                    </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, accusamus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, praesentium.</p>
-                </div>
-                <div class="col-lg-4 col-md-12 video">
-                    <h4 class="text-center">INTRO 5</h4>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" controls poster="img/poster.png">
-                            <source src="video/FijiWebIntro.mp4">
-                        </video>
-                    </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, accusamus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, praesentium.</p>
-                </div>
-                <div class="col-lg-4 col-md-12 video">
-                    <h4 class="text-center">INTRO 6</h4>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <video class="embed-responsive-item" controls poster="img/poster.png">
-                            <source src="video/FijiWebIntro.mp4">
-                        </video>
-                    </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, accusamus.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, praesentium.</p>
                 </div>
             </div>
         </div>
