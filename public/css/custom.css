@@ -5,7 +5,7 @@ html, body
 }
 .navbar
 {
-	background-color: #494D96;
+	background-color: rgb(111, 98, 178);
 	padding: 1% 0;
 	font-size: 1.2em;
 }
@@ -13,6 +13,12 @@ html, body
 {
 	min-height: 55px;
 	padding: 0 15px 5px;
+}
+.navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;	
 }
 .navbar-default .navbar-nav li a
 {
