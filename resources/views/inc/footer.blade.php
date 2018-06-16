@@ -1,11 +1,9 @@
 <footer id="contact" class="container-fluid text-center">
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-4 a2a_kit a2a_kit_size_32 a2a_default_style">
 				<h3>Connect</h3>
-				<a href="#" class="fa fa-facebook"></a>
-				<a href="#" class="fa fa-twitter"></a>
+				<a href="https://redblog.cf/share" class="a2a_button_facebook"></a>
 				<a href="#" class="fa fa-google"></a>
-				<a href="#" class="fa fa-linkedin"></a>
 				<a href="#" class="fa fa-youtube"></a>
 			</div>
 			<div class="col-sm-4">
