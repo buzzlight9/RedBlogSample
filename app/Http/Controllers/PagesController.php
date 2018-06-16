@@ -9,7 +9,7 @@ class PagesController extends Controller
     public function index()
     {
         $title = 'RED BLOG';
-        return view('pages.index')->with('title', $title);
+        return view('pages.index')->with('title', $title );
         
     }
     public function about()

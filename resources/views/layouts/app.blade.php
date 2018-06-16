@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image"         content="https://redblog.cf/img/responsive1.png" >
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -21,7 +22,20 @@
 <body>
         @include('inc.navbar')
         @yield('content')
-		@include('inc.footer')
+        @include('inc.footer')
+        <script>
+            $(document).ready(function() {
+        // Transition effect for navbar 
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 500) { 
+              $('.navbar').addClass('solid');
+          } else {
+              $('.navbar').removeClass('solid');
+          }
+        });
+});
+        </script>
         <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
 		<script>
 			CKEDITOR.replace( 'article-ckeditor' );

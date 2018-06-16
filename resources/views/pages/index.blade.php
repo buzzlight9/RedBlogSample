@@ -3,12 +3,13 @@
 @section('content')
 <div id="home">
 		<div class="landing-text">
-		<h1>{{$title}}</h1>
-			<h3>Get your bussiness online</h3>
+			<h1>{{$title}}</h1>
+			
 			@guest
-				<a href="{{ route('login') }}" class="btn btn-default btn-lg">Login</a> <a href="{{ route('register') }}" class="btn btn-default btn-lg">Register</a>
+				<a href="{{ route('login') }}" class="btn btn-primary btn-lg">Login</a> <a href="{{ route('register') }}" class="btn btn-primary btn-lg">Register</a>
 			@else
-				<a href="/posts" class="btn btn-default btn-lg">Explore</a>
+				<h3>Get Started</h3>
+				<a href="/posts" class="btn btn-primary btn-lg">Explore</a>  <a href="/posts/create" class="btn btn-primary btn-lg">Create Post</a>
 			@endguest
 		</div>
 	</div>

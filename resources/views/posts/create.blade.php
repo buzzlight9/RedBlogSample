@@ -4,7 +4,7 @@
 <div class="headerImg">
     <div class="landing-text">
         <h1>CREATE A POST</h1>
-        <h3>Get your bussiness online</h3>
+        <h3>Get Started Now!</h3>
     </div>
 </div>
 <div class="padding">
