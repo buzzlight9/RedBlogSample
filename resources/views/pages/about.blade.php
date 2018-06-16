@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<img src="img/responsive1.png" alt="">
+					<img src="img/main.png" alt="">
 				</div>
 				<div class="col-sm-6 text-justify services">
 					<h3>OUR MISSION</h3>

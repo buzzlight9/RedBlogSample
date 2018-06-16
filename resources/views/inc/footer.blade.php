@@ -8,7 +8,7 @@
 				
 			</div>
 			<div class="col-sm-4">
-				<a href="/"><img src="../img/logo3.png" class="icon" alt=""></a>
+				<a href="/"><img src="../img/redblog2.png" class="icon" alt=""></a>
 			</div>
 		</div>
 	</footer>
