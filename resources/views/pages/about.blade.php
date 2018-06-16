@@ -20,7 +20,7 @@
 				</div>
 				<div class="col-sm-6 text-justify services">
 					<h3>OUR MISSION</h3>
-					<p>Responsive web design is a type of web design that provides a customized viewing experience for different browser platforms. A website created with responsive design will display a different interface depending on what device is used to access the site. For example, a responsive website may appear one way on a laptop, another way on a tablet, and still another way on smartphone.</p>
+					<p>esponsive web design is a type of web design that provides a customized viewing experience for different browser platforms. A website created with responsive design will display a different interface depending on what device is used to access the site. For example, a responsive website may appear one way on a laptop, another way on a tablet, and still another way on smartphone.</p>
 					<p>Today, many people access websites from mobile devices, rather than desktop computers or laptops. While most smartphones can display regular websites, the content is difficult to read and even harder to navigate. Therefore, at Fiji Web Solution we use responsive web design to provide a better web browsing experience on your website.</p>
 				</div>
 			</div>
