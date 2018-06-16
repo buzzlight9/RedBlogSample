@@ -7,9 +7,6 @@
 				<a href="#" class="a2a_button_youtube"></a>
 			</div>
 			<div class="col-sm-4">
-			<h3>&copy; Fiji Web Design 2018</h3>	
-			</div>
-			<div class="col-sm-4">
 				<a href="/"><img src="../img/logo3.png" class="icon" alt=""></a>
 			</div>
 		</div>

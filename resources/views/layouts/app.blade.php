@@ -23,9 +23,8 @@
         @yield('content')
 		@include('inc.footer')
         <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
-        <script async src="https://static.addtoany.com/menu/page.js"></script>
 		<script>
 			CKEDITOR.replace( 'article-ckeditor' );
-		</script>
+        </script>
 </body>
 </html>
