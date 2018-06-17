@@ -3,8 +3,8 @@
 <div class="headerImg">
     <div class="landing-text">
     <h1>BLOG</h1>
-        <h3>Get your bussiness online</h3>
         @guest
+            <h3>Register to get started or Login now</h3>
 			<a href="{{ route('login') }}" class="btn btn-primary btn-lg">Login</a> <a href="{{ route('register') }}" class="btn btn-primary btn-lg">Register</a>
 		@else
 			<a href="/posts" class="btn btn-primary btn-lg">Explore</a>

@@ -9,12 +9,14 @@ class PagesController extends Controller
     public function index()
     {
         $title = 'RED BLOG';
-        return view('pages.index')->with('title', $title );
+        $subTitle = 'Get Started!';
+        return view('pages.index', compact('title', 'subTitle'));
+        //return view('pages.index')->with('title', $title );
         
     }
     public function about()
     {
-        $about = 'OUR MISSION';
+        $title = 'OUR MISSION';
         return view('pages.about')->with('about', $about);
     }
     public function services()
@@ -46,7 +48,9 @@ class PagesController extends Controller
     }
     public function contact()
     {
-        $contact = 'CONTACT US';
-        return view('pages.contact')->with('contact', $contact);
+        $title = 'CONTACT US';
+        $subTitle = 'Fill The Form Below';
+        return view('pages.contact', compact('title', 'subTitle'));
+        //return view('pages.contact')->with('title', $title);
     }
 }

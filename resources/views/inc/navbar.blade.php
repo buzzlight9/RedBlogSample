@@ -12,13 +12,13 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-main">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/" class="active">HOME</a></li>
-                <li><a href="/about">ABOUT</a></li>
-                <li><a href="/services">SERVICES</a></li>
+               <!-- <li><a href="/about">ABOUT</a></li>
+                <li><a href="/services">SERVICES</a></li>-->
                 <li><a href="/posts">BLOG</a></li>
                 <li><a href="/contact">CONTACT</a></li>
                 @guest
-                <!--<li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
-                <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>-->
+                <li><a class="nav-link" href="{{ route('login') }}">{{ __('LOGIN') }}</a></li>
+                <li><a class="nav-link" href="{{ route('register') }}">{{ __('REGISTER') }}</a></li>
                 @else
                 <li class="nav-item dropdown">
                     <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -28,14 +28,14 @@
                     
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <div>
-                            <a href="/dashboard" class="dropdown-item" style="color:#D5D5D5;" >Dashboard</a> @if (session('status'))
+                            <a href="/dashboard" class="dropdown-item" style="color:#42B72A;" >Dashboard</a> @if (session('status'))
                             <div class="alert alert-success">
                                 {{ session('status') }}
                             </div>
                         @endif
                         <i class="fa fa-circle fa-xs" style="color:#42B72A;"></i>
                         </div>    
-                        <a style="color:#D5D5D5;" class="dropdown-item" href="{{ route('logout') }}"
+                        <a style="color:#42B72A;" class="dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                          document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}

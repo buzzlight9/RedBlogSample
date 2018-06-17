@@ -3,7 +3,7 @@
 @section('content')
 <div class="headerImg">
 		<div class="landing-text">
-			<h1>{{$blog}}</h1>
+			<h1>{{$blogTitle}}</h1>
 			<h3>Get your bussiness online</h3>
 			<a href="{{ route('register') }}" class="btn btn-info btn-lg" role="button">Login</a> <a href="/register" class="btn btn-success btn-lg" role="button">Register</a>
 		</div>

@@ -6,9 +6,9 @@
 			<h1>{{$title}}</h1>
 			
 			@guest
-				<a href="{{ route('login') }}" class="btn btn-primary btn-lg">Login</a> <a href="{{ route('register') }}" class="btn btn-primary btn-lg">Register</a>
+	        <!--<a href="{{ route('login') }}" class="btn btn-primary btn-lg">Login</a> <a href="{{ route('register') }}" class="btn btn-primary btn-lg">Register</a>-->
 			@else
-				<h3>Get Started</h3>
+				<h3>{{$subTitle}}</h3>
 				<a href="/posts" class="btn btn-primary btn-lg">Explore</a>  <a href="/posts/create" class="btn btn-primary btn-lg">Create Post</a>
 			@endguest
 		</div>

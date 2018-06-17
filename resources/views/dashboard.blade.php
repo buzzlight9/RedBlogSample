@@ -4,7 +4,7 @@
 <div class="headerImg">
     <div class="landing-text">
         <h1>DASHBOARD</span></h1>
-            <h3>Welcome To Your Dashboard {{ Auth::user()->name }}</h3>
+            <h3>WELCOME <span class="username">{{ Auth::user()->name }}</span></h3>
             <a href="/posts/create" class="btn btn-primary btn-lg">Create Post</a>
             <!--<a href="#" class="btn btn-default btn-lg">Get Started</a>-->
     </div>
