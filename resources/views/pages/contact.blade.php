@@ -11,7 +11,7 @@
 				<a href="/posts" class="btn btn-primary btn-lg">Explore</a>
 			@endguest
 		</div>
-	</div>
+</div>
 <div class="padding">
 		<div class="container">
 			<div class="row">
