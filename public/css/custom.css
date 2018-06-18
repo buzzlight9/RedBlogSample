@@ -26,6 +26,7 @@ html, body
 }
 .navbar .nav .nav-link
 {
+	text-transform: uppercase;
 	color: #FF5A12;
 }
 .navbar-default .navbar-nav li a
@@ -65,6 +66,10 @@ html, body
 	font-size: 500%;
 	font-weight: 700;
 	color: #FF5A12;
+}
+.landing-text h1 span
+{
+	text-transform: uppercase;
 }
 .landing-text h3 .username
 {

@@ -11,11 +11,13 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 <div id="home">
 		<div class="landing-text">
-			<h1>{{$title}}</h1>
+			
 			
 			@guest
+			<h1>{{$title}}</h1>
 	        <!--<a href="{{ route('login') }}" class="btn btn-primary btn-lg">Login</a> <a href="{{ route('register') }}" class="btn btn-primary btn-lg">Register</a>-->
 			@else
+				<h1><span>{{ Auth::user()->name }}</span></h1>
 				<h3>{{$subTitle}}</h3>
 				<a href="/posts" class="btn btn-primary btn-lg">Explore</a>  <a href="/posts/create" class="btn btn-primary btn-lg">Create Post</a>
 			@endguest
