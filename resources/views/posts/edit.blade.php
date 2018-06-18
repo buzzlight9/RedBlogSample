@@ -49,6 +49,15 @@
 										<div class="help-block with-errors"></div>
 									</div>
                                 </div>
+                            </div>
+                            <div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										{{Form::label('desc', 'Description *')}}
+										{{Form::textarea('desc', $post->desc, ['class' => 'form-control', 'placeholder' => 'Please enter the description of your post *'])}}
+										<div class="help-block with-errors"></div>
+									</div>
+                                </div>
 							</div>
                             <div class="row">
 								<div class="col-md-12">

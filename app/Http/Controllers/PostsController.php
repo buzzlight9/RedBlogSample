@@ -53,6 +53,7 @@ class PostsController extends Controller
         $this->validate($request, 
         [
             'title' => 'required',
+            'desc' => 'required',
             'body' => 'required',
             'cover_image' => 'image|nullable|max:1999'
         ]);
@@ -83,6 +84,7 @@ class PostsController extends Controller
         //Create Post
         $post = new Post;
         $post->title = $request->input('title');
+        $post->desc = $request->input('desc');
         $post->body = $request->input('body');
         $post->user_id = auth()->user()->id;
         $post->cover_image = $fileNameToStore;
@@ -134,6 +136,7 @@ class PostsController extends Controller
         $this->validate($request, 
         [
             'title' => 'required',
+            'desc' => 'required',
             'body' => 'required'
         ]);
 
@@ -160,6 +163,7 @@ class PostsController extends Controller
         //Create Post
         $post = Post::find($id);
         $post->title = $request->input('title');
+        $post->desc = $request->input('desc');
         $post->body = $request->input('body');
         if($request->hasFile('cover_image'))
         {
