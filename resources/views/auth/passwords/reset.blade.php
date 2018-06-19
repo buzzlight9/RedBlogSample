@@ -1,14 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="headerImg">
+    <div class="landing-text">
+    <h1>LOGIN</h1>
+        <h3>Get your bussiness online</h3>
+        <a href="#" class="btn btn-default btn-lg">Get Started</a>
+    </div>
+</div>
+<div class="padding">
         <div class="container">
-    	<div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
+    	<div class="row">
+        <div class="col-sm-12">
+            <!--<div class="card">-->
+               <!-- <div class="card-header">{{ __('Reset Password') }}</div>-->
 
-                <div class="card-body">
-                    <form method="POST" action="{{ route('password.request') }}">
+              <!-- <div class="card-body">-->
+                    <form method="POST" action="{{ route('password/reset') }}">
                         @csrf
 
                         <input type="hidden" name="token" value="{{ $token }}">
@@ -63,9 +71,10 @@
                             </div>
                         </div>
                     </form>
-                </div>
+               <!-- </div>
             </div>
-        </div>
+        </div>-->
     </div>
+</div>
 </div>
 @endsection
