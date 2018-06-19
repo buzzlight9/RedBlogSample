@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<form id="contact-form" method="post" action="contact.php" role="form">
+					<form id="contact-form" method="post" action="" role="form">
 						<div class="messages"></div>
 						<div class="controls">
 							<div class="row">
