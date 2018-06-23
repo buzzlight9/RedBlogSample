@@ -4,8 +4,6 @@
 <div class="headerImg">
     <div class="landing-text">
     <h1>RESET PASSWORD</h1>
-        <h3>Password Reset Below</h3>
-        <a href="#" class="btn btn-default btn-lg">Get Started</a>
     </div>
 </div>
 <div class="padding">
