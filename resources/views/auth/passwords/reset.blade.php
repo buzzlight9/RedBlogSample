@@ -3,8 +3,8 @@
 @section('content')
 <div class="headerImg">
     <div class="landing-text">
-    <h1>LOGIN</h1>
-        <h3>Get your bussiness online</h3>
+    <h1>RESET PASSWORD</h1>
+        <h3>Password Reset Below</h3>
         <a href="#" class="btn btn-default btn-lg">Get Started</a>
     </div>
 </div>
@@ -12,12 +12,11 @@
         <div class="container">
     	<div class="row">
         <div class="col-sm-12">
-            <!--<div class="card">-->
-               <!-- <div class="card-header">{{ __('Reset Password') }}</div>-->
+            {{ __('Reset Password') }}
 
               <!-- <div class="card-body">-->
-                    <form method="POST" action="{{ route('password/reset') }}">
-                        @csrf
+                    <form method="POST" action="{{ url('password/reset') }}">
+                        {{csrf_field()}}
 
                         <input type="hidden" name="token" value="{{ $token }}">
 
