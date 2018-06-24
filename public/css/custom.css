@@ -35,7 +35,7 @@ html, body
 }
 .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active
 {
-	color: #FFF;
+	color: #FFFFFF;
 }
 #home
 {
@@ -151,6 +151,15 @@ footer
 	background-color: #504B9F;
 	padding: 5% 5% 5% 5%;
 	color: #FFF;
+}
+footer .footerHeading
+{
+	color: #FF5A12;
+}
+footer a:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
 }
 .fa
 {

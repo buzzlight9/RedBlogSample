@@ -48,7 +48,7 @@
         <hr>
         <div class="fb-like" data-href="{{Request::url()}}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
         <br> <br>
-        <div class="fb-comments" data-href="{{Request::url()}}" data-numposts="10"></div>
-    </div>
+        <div class="fb-comments" data-href="{{Request::url()}}" data-numposts="5"></div>
+        <br> <br>
 </div>
 @endsection
