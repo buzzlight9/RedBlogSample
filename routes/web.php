@@ -17,6 +17,8 @@ Route::get('/services', 'PagesController@services');
 Route::get('/blog', 'PagesController@blog');
 Route::get('/contact', 'PagesController@contact');
 
+Route::post('/contact', 'PagesController@postContact');
+
 Route::resource('posts', 'PostsController');
 Auth::routes();
 

@@ -13,10 +13,38 @@
 		</div>
 </div>
 <div class="padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+					@if(count($errors) > 0)
+					@foreach($errors->all() as $error)
+						<div class="alert alert-danger">
+							{{$error}}
+						</div>
+					@endforeach
+				@endif
+			
+				@if(session('success'))
+					<div class="alert alert-success">
+						{{session('success')}}
+					</div>
+				@endif
+			
+				@if(session('error'))
+					<div class="alert alert-danger">
+						{{session('error')}}
+					</div>
+				@endif
+			</div>
+		</div>
+	</div>
+</div>
+<div class="padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<form id="contact-form" method="post" action="" role="form">
+				<form id="contact-form" method="POST" action="{{url('contact')}}" role="form">
+					{{csrf_field()}}
 						<div class="messages"></div>
 						<div class="controls">
 							<div class="row">
@@ -47,6 +75,13 @@
 									<div class="form-group">
 										<label for="form_phone">Phone</label>
 										<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+										<div class="help-block with-errors"></div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="form_subject">Subject *</label>
+										<input id="form_subject" type="subject" name="subject" class="form-control" placeholder="Please enter the subject">
 										<div class="help-block with-errors"></div>
 									</div>
 								</div>
