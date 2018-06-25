@@ -103,6 +103,5 @@
 				</div>
 			</div>
 		</div>
-		<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fredblog.cf%2F&layout=button_count&size=small&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     </div>
     @endsection

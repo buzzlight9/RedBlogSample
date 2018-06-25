@@ -8,7 +8,7 @@
      <meta property="og:type"          content="website" >
     <meta property="og:title"         content="RedBlog" >
     <meta property="og:description"   content="Blogging Platform" >
-    <meta property="og:image"         content="https://redblog.cf/img/image.jpg" >
+    <meta property="og:image"         content="https://redblog.cf/img/redblog2.png" >
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
