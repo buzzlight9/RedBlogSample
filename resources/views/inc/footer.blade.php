@@ -4,7 +4,7 @@
 				<h4 class="footerHeading">&copy; RedBlog 2018</h4>
 			</div>
 			<div class="col-sm-4">
-				
+					<div class="fb-share-button" data-href="https://redblog.cf/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fredblog.cf%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 			</div>
 		
 			<div class="col-sm-4">
